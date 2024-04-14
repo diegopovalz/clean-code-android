@@ -1,6 +1,8 @@
 package com.example.cleancodeandroid
 
 import androidx.lifecycle.ViewModel
+import com.example.cleancodeandroid.data.Hotel
+import com.example.cleancodeandroid.data.Reservation
 
 class MainViewModel : ViewModel() {
     private val hotels = mutableListOf<Hotel>()
